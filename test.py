@@ -60,4 +60,4 @@ def download(filename):
         return "No file found"
 
 app.secret_key = "deep-high-resolution"  # 設定 Session的密鑰
-app.run(host='0.0.0.0', port=8080, debug=False)
+app.run(host='0.0.0.0', port=80, debug=False)
